@@ -83,3 +83,37 @@ solo puede con variables tipo string
 print("----------------------------------------------------------------")
 print(name.upper()) #todo en mayusculas
 print(name.lower()) #todo en minusculas
+print("----------------------------------------------------------------")
+#COMBINACION (CONCATENACION) DE STRINGS 
+print("COMBINACION O CONCATENACION DE STRINGS") 
+first_name = "alexis"
+last_name = "javier"
+full_name = first_name + " " + last_name
+print(full_name)
+print(full_name.title())
+
+print("hola", first_name + " " + last_name)
+print("hola".upper(), first_name.title() + " " + last_name)
+
+print("--------------------------------------------------------------")
+print("white space".title())
+#white space
+"""
+Whitespace se refiere a cualquier caracter que no se imprime, es decir, un
+espacio ( ), tabuladores(\t) y finales de linea(\n)
+
+se utilizan para organizar las salidas de texto
+"""
+print("python")
+print("\tpython")
+print("\t\tpython")
+print("lenguajes:\npython\nc\nJavascript")
+
+print("--------------------------------------------------------------")
+
+#f-string
+famous_person = "charlymercury"
+message = "{famous_person} una vez dijo: python is love"
+print(message)
+messagee = f' {famous_person} una vez dijo: python is love'
+print(messagee)
