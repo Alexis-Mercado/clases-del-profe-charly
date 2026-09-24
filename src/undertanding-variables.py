@@ -113,7 +113,7 @@ print("--------------------------------------------------------------")
 
 #f-string
 famous_person = "charlymercury"
-message = "{famous_person} una vez dijo: python is love"
+message = '     {famous_person} una vez dijo: python is love'
 print(message)
-messagee = f' {famous_person} una vez dijo: python is love'
-print(messagee)
+message = f'   {famous_person} una vez dijo: python is love'
+print(message)
