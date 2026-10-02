@@ -51,3 +51,7 @@ print('------------------------------------------------------------------')
 cars = ["bmw", "audi","toyota"]
 
 cars.sort()
+print()
+
+cars.reverse()
+print(cars)
