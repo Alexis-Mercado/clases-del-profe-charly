@@ -11,3 +11,7 @@ print("-------------elevacion al cuadrado--------------------")
 names = ["renata", "balam", "sebas", "peter", "leo", "el chivo del avanico"]
 names_upv = [name+ " @upv.edu.mx" for name in names]
 print(names_upv)
+
+print("-------------raiz cuadrada--------------------")
+squares=[value//2 for value in range(1,11)]
+print(squares)
