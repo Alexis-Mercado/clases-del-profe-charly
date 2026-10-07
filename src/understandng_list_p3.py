@@ -49,3 +49,4 @@ print(message)
 #no olvidar los dos puntos - syntax error
 for magician in magicians:
     print(magician)
+
