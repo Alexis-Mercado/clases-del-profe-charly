@@ -1,4 +1,4 @@
-# Guía Completa de Cinemática y Configuraciones de Ruedas en Robots Móviles
+# Investigación sobre Tipos de Robots Móviles
 
 ---
 
