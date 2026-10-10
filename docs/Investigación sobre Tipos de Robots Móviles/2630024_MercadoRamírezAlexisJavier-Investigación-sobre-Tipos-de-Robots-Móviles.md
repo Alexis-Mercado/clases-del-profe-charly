@@ -104,19 +104,7 @@ En esta configuración, las ruedas Omni se montan a una distancia de $120^\circ$
 * **Diferencia con rueda Omni:** En la rueda Omni el rodillo está a $90^\circ$, mientras que en la Mecanum está a $45^\circ$. Esto causa que al girar la rueda Mecanum, la fuerza generada contra el piso no sea puramente frontal, sino diagonal.
 * **Por qué se usan cuatro ruedas:** Se requiere un arreglo simétrico de cuatro ruedas para que los vectores de fuerza en diagonal creados por cada rueda se puedan sumar o cancelar entre sí a voluntad.
 * **Orientación en el chasis:** Las ruedas deben colocarse en un patrón específico donde las líneas de los rodillos formen una vista de "X" o "O" desde la parte superior. Para correcto funcionamiento, el patrón visto desde arriba debe ser en **"X"**.
-
-```
-                  PATRÓN DE RUEDAS MECANUM (VISTA SUPERIOR)
-
-                      \ (01) /        \ (02) /
-                       +--------------------+
-                       |                    |
-                       |       Chasis       |
-                       |                    |
-                       +--------------------+
-                      / (03) \        / (04) \
-```
-
+![Diagrama de ruedas Mecanum](https://raw.githubusercontent.com/Alexis-Mercado/clases-del-profe-charly/main/docs/Investigaci%C3%B3n%20sobre%20Tipos%20de%20Robots%20M%C3%B3viles/Robot-omnidireccional-con-ruedas-Mecanum.jpg)
 ### Combinación de movimientos
 1. **Avance:** Las 4 ruedas giran hacia adelante a la misma velocidad. Los componentes transversales de los rodillos se cancelan entre sí y los longitudinales se suman.
 2. **Retroceso:** Las 4 ruedas giran hacia atrás a la misma velocidad.
@@ -144,27 +132,7 @@ En esta configuración, las ruedas Omni se montan a una distancia de $120^\circ$
 
 La geometría de dirección Ackermann es el sistema de dirección estándar utilizado en automóviles y vehículos de transporte, diseñado para evitar que las ruedas resbalen hacia los lados durante una curva.
 
-```
-                       C-G (Centro de Giro)
-                          *
-                         / \
-                        /   \
-                       /     \
-                      /       \
-                     /         \
-       [Rueda Interior]      [Rueda Exterior]
-             ( / )                ( | )
-               \                    /
-                +------------------+
-                |    Eje Delantero |
-                |                  |
-                |   Chasis Robot   |
-                |                  |
-                +------------------+
-               [ Rueda Rear-L ]   [ Rueda Rear-R ]
-                     ( | )              ( | )
-```
-
+![Diagrama de dirección Ackermann](https://raw.githubusercontent.com/Alexis-Mercado/clases-del-profe-charly/main/docs/Investigaci%C3%B3n%20sobre%20Tipos%20de%20Robots%20M%C3%B3viles/Robot-con-direcci%C3%B3n-Ackermann.jpg)
 ### Características del sistema Ackermann
 * **Distribución de ruedas:** Cuatro ruedas dispuestas en dos ejes (delantero y trasero).
 * **Ruedas de dirección:** Las ruedas del eje delantero giran mecánicamente sobre pivotes para orientar el vehículo.
@@ -224,17 +192,7 @@ Un sistema Ackermann está sujeto a restricciones de **no holonomía**. Las rued
 ## 8. Aplicación en un robot real
 
 ### Caso de estudio: KUKA YouBot
-
-```
-                  +--------------------------------+
-                  |    Brazo Robótico Manipulador  |
-                  +--------------------------------+
-                  |       Chasis del YouBot        |
-                  +--------------------------------+
-                   (o)   (o)              (o)   (o)
-                  Ruedas Mecanum de alta precisión
-```
-
+![Caso de estudio: KUKA YouBot](https://raw.githubusercontent.com/Alexis-Mercado/clases-del-profe-charly/main/docs/Investigaci%C3%B3n%20sobre%20Tipos%20de%20Robots%20M%C3%B3viles/KUKA-YouBot.jpg)
 * **Nombre del robot:** KUKA YouBot.
 * **Fabricante:** KUKA Robotics / KUKA Laboratories.
 * **Tipo de locomoción:** Omnidireccional Holonómica.
