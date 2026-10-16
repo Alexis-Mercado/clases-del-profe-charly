@@ -1,5 +1,4 @@
 """
-
 realizar un progara ma que determine el costo de un boleto a 
 partir de las siguientes condiciones
 
@@ -12,7 +11,6 @@ age = input("\ningresa tu edad: ")
 #print(type(age))
 age = int(age)
 #print(type(age))
-
 
 if age <= 4:
     cost = 0
