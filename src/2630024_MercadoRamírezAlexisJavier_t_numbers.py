@@ -393,7 +393,6 @@ CONCLUSIONS:
 - Cómo los enteros y flotantes se usan de forma conjunta para cálculos reales.
 - Cómo las comparaciones generan booleanos y permiten tomar decisiones (if).
 - Por qué es importante validar rangos y evitar divisiones entre cero.
-- Qué aprendiste sobre el diseño de condiciones combinadas con and, or, not.
 - Cómo estos patrones se repiten en problemas de nómina, descuentos, préstamos, etc.
 """
 
